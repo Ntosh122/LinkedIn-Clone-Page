@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <!-- load styling sheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>LinkedIn</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="./assets/img/logo.png" alt="logo"></a>
+            <div class="search-box">
+                <img src="/assets/img/search.png" alt="">
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+        <!--  -->
+        <div class="navbar-center">
+            <ul>
+                <li>
+                    <a href="index.html"><img src="./assets/img/home.png" alt=""><span>Home</span></a>
+                </li>
+                <li>
+                    <a href=""><img src="./assets/img/network.png" alt=""><span>My Network</span></a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./assets/img/jobs.png" alt="">
+                        <span>Jobs</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><img src="./assets/img/message.png" alt=""><span>Messages</span></a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./assets/img/notification.png" alt=""><span>Notifications</span></a>
+                </li>
+            </ul> 
+        </div>
+        <!--  -->
+        <div class="navbar-right" >
+            <div class="online">
+                <img src="./assets/img/user_1.png" alt="user" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+        <!-- profile dropdown -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <div class="online-2">
+                        <img src="./assets/img/user_1.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h3>Slindile Mathebula</h3>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="./assets/img/feedback.png" alt="">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./assets/img/setting.png" alt="">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./assets/img/help.png" alt="">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./assets/img/display.png" alt="">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./assets/img/logout.png" alt="">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar closed -->
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="./assets/img/cover-pic.png" alt="" width="100%">
+                <div class="profile-container-inner">
+                    <img src="./assets/img/user_1.png" alt="" class="profile-pic">
+                    <h1>Slindile Mathebula</h1>
+                    <b>Full Stack Developer at Microsoft</b>
+                    <p>Sandton, Johannesburg - South Africa &middot; <a href="#">Contact Info</a></p>
+                    <div class="mutual-connection">
+                        <img src="./assets/img/user-2.png" alt="">
+                        <span>1 mutual connection: Benjamin Leo</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="./assets/img/connect.png" alt="">Connect</a>
+                        <a href="#"><img src="./assets/img/chat.png" alt="">Message</a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>The success of every websites depends on search engine optimization and digital marketing strategy.
+                    if you are on the first page of all major search engines then you are ahead among your competitors.
+                </p>
+                <a href="#" class="see-more-link">See More</a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="./assets/img/microsoft.png" alt="">      
+                    <div>
+                        <h3>Full Stack Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Jan 2022 - Present &middot; 1.5 years</b>
+                        <p>Computer programming is the process of performing a particular computation, usually by 
+                            designing and building an executable computer program.
+                        </p>
+                        <hr>
+                    </div>              
+                </div>
+                <div class="profile-desc-row">
+                    <img src="./assets/img/slack.png" alt="">      
+                    <div>
+                        <h3>Lead Team - Frontend Developer</h3>
+                        <b>Slack&middot; Full-time</b>
+                        <b>March 2021 - December 2021 &middot; 1 year</b>
+                        <p>Computer programming is the process of performing a particular computation, usually by 
+                            designing and building an executable computer program.
+                        </p>
+                        <hr>
+                    </div>              
+                </div>
+                <div class="profile-desc-row">
+                    <img src="./assets/img/google.png" alt="">      
+                    <div>
+                        <h3>Junior Web Developer</h3>
+                        <b>Google Inc &middot; Full-time</b>
+                        <b>Sept 2020 - March 2021 &middot; 7 months</b>
+                        <p>Computer programming is the process of performing a particular computation, usually by 
+                            designing and building an executable computer program.
+                        </p>
+                    </div>              
+                </div>
+                <hr>
+                <a href="#" class="experience-link">Show all 7 experiences <img src="./assets/img/right-arrow.png" alt=""></a>
+            </div>
+            <div class="profile-description">
+                <h2>Education</h2>
+                <div class="profile-desc-row">
+                    <img src="./assets/img/stanford.png" alt="">
+                    <div>
+                        <h3>Stanford University</h3>
+                        <b>BCom, Computer Science</b>
+                        <b>2018 - 2020</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="./assets/img/north.png" alt="">
+                    <div>
+                        <h3>Northern Cape University</h3>
+                        <b>Diploma Information Technology</b>
+                        <b>2016 - 2018</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="./assets/img/mit.png" alt="">
+                    <div>
+                        <h3>Havard University</h3>
+                        <b>Senior High School</b>
+                        <b>2010 - 2015</b>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="#" class="skills-btn">Leadership</a>
+                <a href="#" class="skills-btn">Graphic Design</a>
+                <a href="#" class="skills-btn">Java</a>
+                <a href="#" class="skills-btn">Python</a>
+                <a href="#" class="skills-btn">Analytics</a>
+                <a href="#" class="skills-btn">Web Design</a>
+                <a href="#" class="skills-btn">Communication and Management</a>
+                <a href="#" class="skills-btn">UI/UX</a>
+                <a href="#" class="skills-btn">Javascript</a>
+                <a href="#" class="skills-btn">.NET & .NET Framework (MVC)</a>
+                <a href="#" class="skills-btn">React.js</a>
+            </div>
+            <div class="profile-description">
+                <h2>Languages</h2>
+                <a href="#" class="language-btn">English</a>
+                <a href="#" class="language-btn">xiTshonga</a>
+                <a href="#" class="language-btn">isiZulu</a>
+            </div>
+        </div>
+        <div class="profile-sidebar">
+            <div class="sidebar-add">
+                <small>Ad &middot; &middot; &middot; </small>
+                <p>Master the 5 principles of web design</p>
+                <div>
+                    <img src="./assets/img/user-1.png" alt="">
+                    <img src="./assets/img/mi-logo.png" alt="">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="add-link">Learn More</a>
+            </div>
+
+            <div class="sidebar-people">
+                <h3>People you may know</h3>
+                <div class="sidebar-people-row">
+                    <img src="./assets/img/user-3.png" alt="">
+                    <div>
+                        <h2>Sam Hilder</h2>
+                        <p>Head of Marking at Muskeet</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="./assets/img/user-1.png" alt="">
+                    <div>
+                        <h2>James Health</h2>
+                        <p>PR CEO at BoT Media</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="./assets/img/user-4.png" alt="">
+                    <div>
+                        <h2>Lira Smith</h2>
+                        <p>Finance Manager at FNB</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="./assets/img/user-5.png" alt="">
+                    <div>
+                        <h2>James Kim</h2>
+                        <p>Software Engineer at ABSA</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="profile-footer">
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+
+            <div class="copyright-msg">
+                <img src="./assets/img/logo.png" alt="">
+                <p>LinkedIn &copy; <span id="year"></span> All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    <!-- load javascript -->
+    <script >
+        let profile_Menu = document.getElementById("profileMenu");
+
+        function toggleMenu(){
+    profile_Menu.classList.toggle("open-menu");}
+    </script>
+</body>
+</html>
